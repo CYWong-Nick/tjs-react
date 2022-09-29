@@ -1,10 +1,9 @@
 import { FC } from "react";
+import Summary from "./Summary";
 
 const App: FC = () => {
   return (
-    <div>
-      HELLO TJS
-    </div>
+    <Summary />
   )
 }
 
