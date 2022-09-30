@@ -14,7 +14,7 @@ root.render(
 );
 
 const buildingRoot = document.createElement('div')
-const upgradeBuilding = document.getElementsByClassName('.upgradeBuilding')[0]
+const upgradeBuilding = document.getElementsByClassName('upgradeBuilding')[0]
 upgradeBuilding?.parentNode?.insertBefore(buildingRoot, upgradeBuilding)
 const broot = ReactDOM.createRoot(buildingRoot);
 broot.render(
