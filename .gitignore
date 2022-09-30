@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+# build
+/build
+!/build/static
+/build/static/*
+!/build/static/js
+/build/static/js/*
+!/build/static/js/bundle.min.js
+
 # testing
 /coverage
 
